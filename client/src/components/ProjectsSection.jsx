@@ -19,7 +19,10 @@ export default function ProjectsSection() {
       .then(res => { 
         if (mounted) {
           const data = Array.isArray(res.data) ? res.data : []
-          setProjects(data.length > 0 ? data : mockProjects)
+          const missingMockProjects = mockProjects.filter(mockProject =>
+            !data.some(project => project.title === mockProject.title)
+          )
+          setProjects(data.length > 0 ? [...data, ...missingMockProjects] : mockProjects)
         }
       })
       .catch(err => { 

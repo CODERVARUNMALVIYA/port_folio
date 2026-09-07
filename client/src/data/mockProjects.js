@@ -47,5 +47,13 @@ export const mockProjects = [
     tech: ['React','Node.js','MongoDB','Express','Vite','CSS'],
     link: '/task-manager',
     image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=500'
+  },
+  { 
+    _id: '7',
+    title: 'Shopping Website',
+    description: 'Responsive React shopping website with a clean browsing experience for exploring products and managing an online storefront.',
+    tech: ['React', 'JavaScript', 'CSS'],
+    link: 'https://shoping-website-02ir.onrender.com',
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500'
   }
 ]
