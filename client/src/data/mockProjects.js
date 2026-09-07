@@ -25,6 +25,14 @@ export const mockProjects = [
     image: 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=500'
   },
   { 
+    _id: '4',
+    title: 'CircleTalk', 
+    description: 'Real-time community chat platform for connecting with friends, sharing messages, and staying engaged through a clean and responsive social experience.',
+    tech: ['React','Node.js','MongoDB','Express','Socket.io'], 
+    link: 'https://circletalk-1.onrender.com/',
+    image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500'
+  },
+  { 
     _id: '5',
     title: 'E-Commerce Operations Platform', 
     description: 'Major full-stack commerce platform concept with product management, inventory tracking, order workflows, sales analytics, customer accounts, and a responsive admin workspace.',

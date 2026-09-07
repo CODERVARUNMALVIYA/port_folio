@@ -27,6 +27,13 @@ const sample = [
     image: 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=500'
   },
   { 
+    title: 'CircleTalk', 
+    description: 'Real-time community chat platform for connecting with friends, sharing messages, and staying engaged through a clean and responsive social experience.',
+    tech: ['React','Node.js','MongoDB','Express','Socket.io'], 
+    link: 'https://circletalk-1.onrender.com/',
+    image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500'
+  },
+  { 
     title: '3D Portfolio Website', 
     description: 'Modern portfolio website with stunning Three.js 3D animations, glassmorphism UI, dark theme, particle effects, and production-ready MERN stack architecture. Features smooth animations and responsive design.',
     tech: ['React','Three.js','Tailwind CSS','Node.js','MongoDB','Vite','@react-three/fiber'], 
