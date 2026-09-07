@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #0ea5a4;
+}
+
+/* small custom utilities */
+.btn-accent {
+  @apply bg-accent text-white px-4 py-2 rounded-md shadow-md hover:translate-y-[-2px] transition;
+}

@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log
+.env
+.DS_Store
+
+# Vite
+dist/
+
+# Mac/Windows
+Thumbs.db
+.vscode/
