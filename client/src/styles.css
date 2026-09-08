@@ -86,3 +86,41 @@ button:focus, a:focus, input:focus, textarea:focus{ outline:3px solid rgba(14,16
 .success{ color:green }
 .error{ color:red }
 
+.hero-content { width: 100%; min-width: 0; }
+.hero-copy { min-width: 0; }
+.hero-copy h1, .hero-copy h2, .hero-copy p { overflow-wrap: anywhere; }
+.hero-photo { min-width: 0; }
+
+/* Shared responsive foundations */
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root { width: 100%; min-width: 0; }
+body { overflow-x: hidden; }
+img, canvas, svg, video { max-width: 100%; }
+button, input, textarea, select { max-width: 100%; }
+
+@media (max-width: 640px){
+	.container { padding-left: 1rem; padding-right: 1rem; }
+	.hero { gap: 1.5rem; }
+	.hero-left, .hero-right { width: 100%; }
+	.hero-content { display: flex; flex-direction: column; align-items: stretch; gap: 2rem; padding: 4rem 1rem 3rem; }
+	.hero-copy { width: 100%; }
+	.hero-copy h1 { font-size: clamp(2rem, 10vw, 3rem); line-height: 1.05; }
+	.hero-copy h2 { font-size: clamp(1.35rem, 7vw, 1.8rem); }
+	.hero-copy p { font-size: 1rem; line-height: 1.55; }
+	.hero-actions { display: grid; grid-template-columns: 1fr; width: 100%; gap: .75rem; }
+	.hero-actions a { width: 100%; margin: 0; text-align: center; }
+	.hero-photo { width: 100%; justify-content: center; }
+	.hero-photo > div { width: min(100%, 18rem); height: min(24rem, 78vw); }
+	h1 { font-size: clamp(1.9rem, 9vw, 2.25rem); }
+	h2 { font-size: 1.35rem; }
+	.ctas { display: grid; grid-template-columns: 1fr; gap: .75rem; }
+	.ctas .button { margin-right: 0; text-align: center; }
+	.about, .skills, .projects, .experience, .education, .contact { padding: 1.5rem 0; }
+	.project-card .card-media { height: 190px; }
+	.modal { width: calc(100% - 1.5rem); max-height: 92vh; padding: .75rem; }
+	.modal .modal-body img { height: auto; max-height: 240px; }
+	.contact-form input, .contact-form textarea { font-size: 16px; }
+	.site-footer .socials { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; }
+	.site-footer .socials a { margin-left: 0; }
+}
+

@@ -27,7 +27,7 @@ export default function Skills() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <SkillGroup title="Frontend" items={["React.js","HTML","CSS","JavaScript","Tailwind","Bootstrap"]} />
           <SkillGroup title="Backend" items={["Node.js","Express.js"]} />
-          <SkillGroup title="Database" items={["MongoDB","Mongoose"]} />
+          <SkillGroup title="Database" items={["MongoDB"]} />
           <SkillGroup title="Tools" items={["Git","GitHub","VS Code","Postman"]} />
         </div>
       </div>

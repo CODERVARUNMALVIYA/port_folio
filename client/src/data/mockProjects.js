@@ -1,25 +1,25 @@
-// Mock projects data - MongoDB ke bina bhi kaam karega
+// Fallback project data used when the API is unavailable.
 export const mockProjects = [
   { 
     _id: '1',
-    title: 'Recipe App', 
-    description: 'Full-stack recipe management application where users can browse, search, and save their favorite recipes. Features include user authentication, recipe categories, ingredient lists, cooking instructions, and a beautiful responsive interface.',
+    title: 'Recipe Website',
+    description: 'Full-stack recipe website where users can browse, search, and save their favorite recipes. Features include user authentication, recipe categories, ingredient lists, cooking instructions, and a beautiful responsive interface.',
     tech: ['React','Node.js','MongoDB','Express','Tailwind CSS','JWT'], 
     link: 'https://recepie-app-hhy0.onrender.com',
     image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=500'
   },
   { 
     _id: '2',
-    title: 'InstaClone - Social Media App', 
-    description: 'Instagram-inspired social media platform with photo sharing, user profiles, likes, comments, follow/unfollow functionality, real-time notifications, and responsive image galleries. Built with modern MERN stack.',
+    title: 'Socially - Social Media Website',
+    description: 'A modern social media website with photo sharing, user profiles, likes, comments, follow/unfollow functionality, real-time notifications, and responsive image galleries. Built with the MERN stack.',
     tech: ['React','Node.js','MongoDB','Express','Cloudinary','Socket.io','Redux'], 
     link: 'https://instaclone-2-pk5p.onrender.com',
-    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500'
+    image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=500&q=80'
   },
   { 
     _id: '3',
     title: 'Government Portal Project', 
-    description: 'Comprehensive government portal frontend with citizen services, document management, application tracking, and public information system. Features clean UI, accessibility compliance, and multi-language support.',
+    description: 'Comprehensive government portal website with citizen services, document management, application tracking, and public information system. Features clean UI, accessibility compliance, and multi-language support.',
     tech: ['React','Redux','Material-UI','Axios','React Router','Form Validation'], 
     link: 'https://goverment-project-frontend-y575.onrender.com',
     image: 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=500'
@@ -38,7 +38,7 @@ export const mockProjects = [
     description: 'Major full-stack commerce platform concept with product management, inventory tracking, order workflows, sales analytics, customer accounts, and a responsive admin workspace.',
     tech: ['React','Node.js','MongoDB','Express','Stripe','Charts'], 
     link: '/commerce-platform',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500'
+    image: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=500&q=80'
   },
   { 
     _id: '6',

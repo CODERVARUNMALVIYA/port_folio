@@ -6,15 +6,15 @@ const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/portfolio'
 
 const sample = [
   { 
-    title: 'Recipe App', 
-    description: 'Full-stack recipe management application where users can browse, search, and save their favorite recipes. Features include user authentication, recipe categories, ingredient lists, cooking instructions, and a beautiful responsive interface.',
+    title: 'Recipe Website', 
+    description: 'Full-stack recipe website where users can browse, search, and save their favorite recipes. Features include user authentication, recipe categories, ingredient lists, cooking instructions, and a beautiful responsive interface.',
     tech: ['React','Node.js','MongoDB','Express','Tailwind CSS','JWT'], 
     link: 'https://recepie-app-hhy0.onrender.com',
     image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=500'
   },
   { 
-    title: 'InstaClone - Social Media App', 
-    description: 'Instagram-inspired social media platform with photo sharing, user profiles, likes, comments, follow/unfollow functionality, real-time notifications, and responsive image galleries. Built with modern MERN stack.',
+    title: 'Socially - Social Media Website', 
+    description: 'A modern social media website with photo sharing, user profiles, likes, comments, follow/unfollow functionality, real-time notifications, and responsive image galleries. Built with the MERN stack.',
     tech: ['React','Node.js','MongoDB','Express','Cloudinary','Socket.io','Redux'], 
     link: 'https://instaclone-2-pk5p.onrender.com',
     image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500'
