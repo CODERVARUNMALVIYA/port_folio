@@ -46,6 +46,9 @@ export default function Header() {
             </a>
           </nav>
           <div className="flex items-center gap-2">
+            <a className="px-2 py-2 text-xs text-gray-500 hover:text-accent transition-colors" href="/admin/messages">
+              Admin
+            </a>
             <a className="px-4 py-2 rounded-lg font-semibold text-gray-300 hover:text-white hover:bg-gray-700 transition-colors" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               View Resume
             </a>
@@ -100,6 +103,9 @@ export default function Header() {
                 Download
               </a>
             </div>
+            <a className="mt-1 text-center text-xs text-gray-500 hover:text-accent transition-colors" href="/admin/messages" onClick={() => setOpen(false)}>
+              Admin
+            </a>
           </div>
         </div>
       )}
