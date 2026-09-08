@@ -3,15 +3,15 @@ export const mockProjects = [
   { 
     _id: '1',
     title: 'Recipe Website',
-    description: 'Full-stack recipe website where users can browse, search, and save their favorite recipes. Features include user authentication, recipe categories, ingredient lists, cooking instructions, and a beautiful responsive interface.',
-    tech: ['React','Node.js','MongoDB','Express','Tailwind CSS','JWT'], 
+    description: 'Frontend recipe website where users can browse, search, and explore favorite recipes through a beautiful responsive interface. Features include recipe categories, ingredient lists, and cooking instructions.',
+    tech: ['React','JavaScript','Tailwind CSS'], 
     link: 'https://recepie-app-hhy0.onrender.com',
     image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=500'
   },
   { 
     _id: '2',
     title: 'Socially - Social Media Website',
-    description: 'A modern social media website with photo sharing, user profiles, likes, comments, follow/unfollow functionality, real-time notifications, and responsive image galleries. Built with the MERN stack.',
+    description: 'A full-stack social media website with photo sharing, user profiles, likes, comments, follow/unfollow functionality, real-time notifications, and responsive image galleries.',
     tech: ['React','Node.js','MongoDB','Express','Cloudinary','Socket.io','Redux'], 
     link: 'https://instaclone-2-pk5p.onrender.com',
     image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=500&q=80'
@@ -27,7 +27,7 @@ export const mockProjects = [
   { 
     _id: '4',
     title: 'CircleTalk', 
-    description: 'Real-time community chat platform for connecting with friends, sharing messages, and staying engaged through a clean and responsive social experience.',
+    description: 'A real-time community chat platform built with the MERN stack for connecting with friends, sharing messages, and staying engaged through a clean and responsive social experience.',
     tech: ['React','Node.js','MongoDB','Express','Socket.io'], 
     link: 'https://circletalk-1.onrender.com/',
     image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500'
@@ -35,8 +35,8 @@ export const mockProjects = [
   { 
     _id: '5',
     title: 'E-Commerce Operations Platform', 
-    description: 'Major full-stack commerce platform concept with product management, inventory tracking, order workflows, sales analytics, customer accounts, and a responsive admin workspace.',
-    tech: ['React','Node.js','MongoDB','Express','Stripe','Charts'], 
+    description: 'Frontend e-commerce platform concept with product browsing, shopping workflows, sales views, customer screens, and a responsive interface.',
+    tech: ['React','JavaScript','CSS','Charts'], 
     link: '/commerce-platform',
     image: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=500&q=80'
   },
