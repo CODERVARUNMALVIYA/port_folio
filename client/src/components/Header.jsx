@@ -45,9 +45,14 @@ export default function Header() {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all duration-300"></span>
             </a>
           </nav>
-          <a className="btn-accent px-5 py-2 rounded-lg font-semibold hover:scale-105 transition-transform" href="/resume.pdf" download>
-            Resume
-          </a>
+          <div className="flex items-center gap-2">
+            <a className="px-4 py-2 rounded-lg font-semibold text-gray-300 hover:text-white hover:bg-gray-700 transition-colors" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              View Resume
+            </a>
+            <a className="btn-accent px-4 py-2 rounded-lg font-semibold hover:scale-105 transition-transform" href="/resume.pdf" download="Varun-Malviya-Resume.pdf">
+              Download
+            </a>
+          </div>
         </div>
 
         <div className="md:hidden flex items-center">
@@ -87,9 +92,14 @@ export default function Header() {
             <a className="text-gray-300 hover:text-accent transition-colors py-2" href="#contact" onClick={() => setOpen(false)}>
               Contact
             </a>
-            <a className="btn-accent mt-2 py-3 rounded-lg font-semibold text-center hover:scale-105 transition-transform" href="/resume.pdf" download>
-              Download Resume
-            </a>
+            <div className="mt-2 grid grid-cols-2 gap-2">
+              <a className="py-3 rounded-lg font-semibold text-center text-gray-200 bg-gray-700 hover:bg-gray-600 transition-colors" href="/resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
+                View Resume
+              </a>
+              <a className="btn-accent py-3 rounded-lg font-semibold text-center hover:scale-105 transition-transform" href="/resume.pdf" download="Varun-Malviya-Resume.pdf" onClick={() => setOpen(false)}>
+                Download
+              </a>
+            </div>
           </div>
         </div>
       )}

@@ -26,7 +26,7 @@ export default function Hero() {
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-600 px-6 py-3 rounded-lg font-semibold transition-colors">
               View Resume
             </a>
-            <a href="/resume.pdf" download className="bg-gray-700 hover:bg-gray-600 px-6 py-3 rounded-lg font-semibold transition-colors">
+            <a href="/resume.pdf" download="Varun-Malviya-Resume.pdf" className="bg-gray-700 hover:bg-gray-600 px-6 py-3 rounded-lg font-semibold transition-colors">
               Download Resume
             </a>
             <a href="#contact" className="border-2 border-accent text-accent hover:bg-accent hover:text-white px-6 py-3 rounded-lg font-semibold transition-all">
