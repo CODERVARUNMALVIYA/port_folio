@@ -61,7 +61,11 @@ Backend can't run on Vercel free tier, use Render instead (see Option 2).
    NODE_ENV=production
    PORT=5000
    CLIENT_URL=https://your-frontend-url.vercel.app
+   ADMIN_PASSWORD=your-admin-password
+   ADMIN_SESSION_SECRET=long-random-session-secret
    ```
+
+   `ADMIN_PASSWORD` and `ADMIN_SESSION_SECRET` must be added in the hosting provider's environment settings. Do not rely on the local `server/.env` file; it is not deployed. `CLIENT_URL` must exactly match the deployed frontend origin, including `https://` and without a trailing slash.
 
 4. **Get your backend URL**
    - Will be like: `https://portfolio-api.onrender.com`
@@ -155,6 +159,8 @@ PORT=5000
 MONGO_URI=your-mongodb-atlas-uri
 NODE_ENV=production
 CLIENT_URL=https://your-domain.com
+ADMIN_PASSWORD=your-admin-password
+ADMIN_SESSION_SECRET=long-random-session-secret
 ```
 
 **`client/.env.production`**

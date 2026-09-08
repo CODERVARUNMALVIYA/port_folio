@@ -7,6 +7,11 @@ function getSecret() {
   return process.env.ADMIN_SESSION_SECRET || ''
 }
 
+function getCookieAttributes() {
+  const production = process.env.NODE_ENV === 'production'
+  return `${production ? '; Secure' : ''}; SameSite=${production ? 'None' : 'Lax'}`
+}
+
 function createSignature(payload) {
   return crypto.createHmac('sha256', getSecret()).update(payload).digest('hex')
 }
@@ -36,12 +41,11 @@ export function createAdminCookie() {
   const expiresAt = Math.floor(Date.now() / 1000) + SESSION_TTL_SECONDS
   const payload = `admin.${expiresAt}`
   const token = `${payload}.${createSignature(payload)}`
-  const secure = process.env.NODE_ENV === 'production' ? '; Secure' : ''
-  return `${COOKIE_NAME}=${encodeURIComponent(token)}; HttpOnly; Path=/; Max-Age=${SESSION_TTL_SECONDS}; SameSite=Lax${secure}`
+  return `${COOKIE_NAME}=${encodeURIComponent(token)}; HttpOnly; Path=/; Max-Age=${SESSION_TTL_SECONDS}${getCookieAttributes()}`
 }
 
 export function clearAdminCookie() {
-  return `${COOKIE_NAME}=; HttpOnly; Path=/; Max-Age=0; SameSite=Lax`
+  return `${COOKIE_NAME}=; HttpOnly; Path=/; Max-Age=0${getCookieAttributes()}`
 }
 
 export function requireAdmin(req, res, next) {
