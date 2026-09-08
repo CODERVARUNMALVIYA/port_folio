@@ -20,9 +20,6 @@ export default function About() {
               designing user-friendly interfaces and building robust backend services.
             </p>
             <p className="text-lg">
-              Background: B.Tech in Computer Science from Sagar Institute of Research & Technology, Bhopal — worked on internships at Eulogik Info Pvt Ltd and currently working at Optico Solution Pvt Ltd building responsive and accessible websites.
-            </p>
-            <p className="text-lg">
               I love working across the stack — frontend, backend, and improving UX. Outside work I
               enjoy photography, reading, and open-source.
             </p>
