@@ -17,7 +17,7 @@ export default function Experience() {
           <div className="bg-slate-800/50 backdrop-blur-sm border-l-4 border-accent pl-6 pr-6 py-6 rounded-r-xl hover:scale-105 transition-transform">
             <h4 className="text-2xl font-semibold text-white">MERN Stack Developer</h4>
             <p className="text-accent font-medium mt-1">Optico Solution Pvt Ltd</p>
-            <small className="text-gray-400">Oct 2025 — Present</small>
+            <small className="text-gray-400">Oct 2025 — June 2026</small>
             <ul className="mt-4 space-y-3 text-gray-300">
               <li className="flex items-start">
                 <span className="text-accent mr-3 mt-1">▹</span>
