@@ -58,21 +58,21 @@ export default function Education() {
                 <span className="text-emerald-400 mr-3 mt-1">🎓</span>
                 <div>
                   <p className="text-white font-medium">Front-End Web Developer Certification</p>
-                  <p className="text-gray-400 text-sm">Sheryians Coding School | <a href="#" target="_blank" className="text-accent hover:underline">View ↗</a></p>
+                  <p className="text-gray-400 text-sm">Sheryians Coding School | <a href="https://www.linkedin.com/posts/varun-malviya-14a385274_frontenddevelopment-webdevelopment-certification-activity-7244666703987544065-SNfu?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEL5jooBwaUdRd05xqrd-R-FVQXAhyAop4k" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">View ↗</a></p>
                 </div>
               </div>
               <div className="flex items-start">
                 <span className="text-emerald-400 mr-3 mt-1">🎓</span>
                 <div>
                   <p className="text-white font-medium">Back-End Web Developer Certification</p>
-                  <p className="text-gray-400 text-sm">Sheryians Coding School | <a href="#" target="_blank" className="text-accent hover:underline">View ↗</a></p>
+                  <p className="text-gray-400 text-sm">Sheryians Coding School | <a href="https://www.linkedin.com/posts/varun-malviya-14a385274_backenddevelopment-webdevelopment-certification-activity-7244667777867763712-dscr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEL5jooBwaUdRd05xqrd-R-FVQXAhyAop4k" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">View ↗</a></p>
                 </div>
               </div>
               <div className="flex items-start">
                 <span className="text-emerald-400 mr-3 mt-1">🎓</span>
                 <div>
                   <p className="text-white font-medium">React JS Certification</p>
-                  <p className="text-gray-400 text-sm">Sheryians Coding School | <a href="#" target="_blank" className="text-accent hover:underline">View ↗</a></p>
+                  <p className="text-gray-400 text-sm">Sheryians Coding School | <a href="https://www.linkedin.com/posts/varun-malviya-14a385274_reactjs-webdevelopment-certification-activity-7244668347181649920-8d_y?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEL5jooBwaUdRd05xqrd-R-FVQXAhyAop4k" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">View ↗</a></p>
                 </div>
               </div>
             </div>
